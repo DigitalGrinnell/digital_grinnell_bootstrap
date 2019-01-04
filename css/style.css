@@ -139,13 +139,14 @@ span.oh_speaker_5 {
 .container {
     padding-right: 0;
     padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
 }	
 
-.navbar-default {
+
+.navbar-default, navbar-collapse {
     background-color: transparent;     /* #f8f8f8; */
     border-color: #e7e7e7;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .well {
