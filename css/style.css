@@ -134,6 +134,17 @@ span.oh_speaker_5 {
   color: #ffbf00;     /* orange */
 }
 
+/* Misc. */
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}	
+
+/* Authorization form theme settings */
+
 span#authorization-forms-button {
     display: block;
     background: var(--grinnell-red);
