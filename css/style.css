@@ -14,6 +14,10 @@ a {
   color: grinnell-red !important;
 }
 
+.nav > li > a {
+  padding: 5px 15px;
+}
+
 /* Styles from the 'Collections' view defined in module dg7 */
 
 div.collection-value h3 {
