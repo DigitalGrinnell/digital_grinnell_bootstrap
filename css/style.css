@@ -51,6 +51,13 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
   margin-top: 0;
 }
 
+.well {
+  padding: 10px;
+  border: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
 /* Manipulating the Grinnell College Libraries "logo" */
 
 .navbar-header {
