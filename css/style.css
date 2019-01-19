@@ -18,6 +18,10 @@ a {
   background: #efe9e9;
 }
 
+#toolbar div.toolbar-menu {        /* This change also goes with the 'a' color change above. */
+  background: #d5cccc;
+}
+
 .nav > li > a {
   padding: 2px 15px;
 }
@@ -27,6 +31,18 @@ a {
   margin-right: 10px;
 }
 
+div.form-item.form-item-collection-select.form-type-select.form-group {
+  display: block;
+}
+
+div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-group {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#edit-submit {
+  background: black;
+}
 
 /* Styles from the 'Collections' view defined in module dg7 */
 
@@ -335,6 +351,11 @@ td.mods-metadata-label {
     text-align: right !important;
     font-size: smaller;
     text-transform: capitalize;
+    padding-right: 10px;
+}
+
+.mods-metadata-label::after {
+  content: ":"
 }
 
 /* MAM 06-Nov-2015... hide the 'Create new account' and 'Request new password'

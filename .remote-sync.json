@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "dgdocker1.grinnell.edu",
+  "target": "/opt/ISLE/persistent/html/sites/default/themes/digital_grinnell_bootstrap",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "islandora",
+  "keyfile": "/Users/markmcfate/.ssh/id_rsa",
+  "watch": [],
+  "transport": "scp"
+}
