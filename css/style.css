@@ -10,6 +10,8 @@
     --grinnell-red: #DA291C;
 }
 
+/* Main page elements */
+
 a {
   color: #DA291C !important;
 }
@@ -40,8 +42,31 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
   margin-right: 5px;
 }
 
-#edit-submit {
-  background: black;
+.btn.btn-primary.form-submit {
+  background: #DA291C;
+}
+
+.navbar-btn {
+  margin-top: 0;
+}
+
+/* Manipulating the Grinnell College Libraries "logo" */
+
+.navbar-header {
+  width: 100%;
+}
+
+a.gc-libraries-link-as-slogan {
+  display: inline-block;
+  text-align: right;
+}
+
+.left-half {
+  width: 50%;
+}
+
+.right-half {
+  width: 50%;
 }
 
 /* Styles from the 'Collections' view defined in module dg7 */
