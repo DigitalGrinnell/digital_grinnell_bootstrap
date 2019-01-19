@@ -82,9 +82,11 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
         <?php if (!empty($site_slogan)): ?>
-          <a class="gc-libraries-link-as-slogan pull-right right-half" href="https://www.grinnell.edu/academics/libraries" target="_blank" title="<?php print t('Grinnell College Libraries'); ?>">
-            <img src="sites/default/themes/digital_grinnell_bootstrap/<?php print $site_slogan; ?>" alt="<?php print t('Grinnell College Libraries'); ?>" />
-          </a>
+          <div class="gc-libraries-link-as-slogan right-half hidden-sm">   <!-- see https://stackoverflow.com/questions/27962534/how-to-hide-something-in-mobile-tablet-view-in-bootstrap-3 -->
+            <a class="pull-right" href="https://www.grinnell.edu/academics/libraries" target="_blank" title="<?php print t('Grinnell College Libraries'); ?>">
+              <img src="<?php print 'sites/default/themes/digital_grinnell_bootstrap/'.$site_slogan;?>" alt="<?php print t('Grinnell College Libraries'); ?>" />
+            </a>
+          </div>
         <?php endif; ?>
 
       <?php endif; ?>

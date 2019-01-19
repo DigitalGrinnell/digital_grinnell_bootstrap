@@ -8,12 +8,13 @@
 
 :root {
     --grinnell-red: #DA291C;
+    --tab-color: #e7e7e7;
 }
 
 /* Main page elements */
 
 a {
-  color: #DA291C !important;
+  color: var(--grinnell-red) !important;
 }
 
 #toolbar {                         /* This change goes with the 'a' color change above. */
@@ -43,7 +44,7 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
 }
 
 .btn.btn-primary.form-submit {
-  background: #DA291C;
+  background: var(--grinnell-red);
 }
 
 .navbar-btn {
@@ -56,17 +57,16 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
   width: 100%;
 }
 
-a.gc-libraries-link-as-slogan {
-  display: inline-block;
-  text-align: right;
-}
-
 .left-half {
   width: 50%;
 }
 
 .right-half {
   width: 50%;
+}
+
+div.gc-libraries-link-as-slogan {
+  display: inline-block;
 }
 
 /* Styles from the 'Collections' view defined in module dg7 */
