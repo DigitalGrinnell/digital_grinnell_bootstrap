@@ -58,6 +58,7 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
   box-shadow: none !important;
 }
 
+<<<<<<< HEAD
 /* Announcements... */
 
 .jumbotron p {
@@ -70,6 +71,8 @@ div.highlighted.jumbotron {
   margin-bottom: 15px;
 }
 
+=======
+>>>>>>> 24c18042afe8472c045f9d3b59de263f616d216e
 /* Manipulating the Grinnell College Libraries "logo" */
 
 .navbar-header {
