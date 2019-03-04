@@ -8,14 +8,21 @@
 
 :root {
     --grinnell-red: #DA291C;
+    --tab-color: #e7e7e7;
 }
 
+/* Main page elements */
+
 a {
-  color: #DA291C !important;
+  color: var(--grinnell-red) !important;
 }
 
 #toolbar {                         /* This change goes with the 'a' color change above. */
   background: #efe9e9;
+}
+
+#toolbar div.toolbar-menu {        /* This change also goes with the 'a' color change above. */
+  background: #d5cccc;
 }
 
 .nav > li > a {
@@ -27,6 +34,59 @@ a {
   margin-right: 10px;
 }
 
+div.form-item.form-item-collection-select.form-type-select.form-group {
+  display: block;
+}
+
+div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-group {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.btn.btn-primary.form-submit {
+  background: var(--grinnell-red);
+}
+
+.navbar-btn {
+  margin-top: 0;
+}
+
+.well {
+  padding: 10px;
+  border: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* Announcements... */
+
+.jumbotron p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+div.highlighted.jumbotron {
+  padding: 15px !important;
+  margin-bottom: 15px;
+}
+
+/* Manipulating the Grinnell College Libraries "logo" */
+
+.navbar-header {
+  width: 100%;
+}
+
+.left-half {
+  width: 50%;
+}
+
+.right-half {
+  width: 50%;
+}
+
+div.gc-libraries-link-as-slogan {
+  display: inline-block;
+}
 
 /* Styles from the 'Collections' view defined in module dg7 */
 
@@ -335,6 +395,11 @@ td.mods-metadata-label {
     text-align: right !important;
     font-size: smaller;
     text-transform: capitalize;
+    padding-right: 10px;
+}
+
+.mods-metadata-label::after {
+  content: ":"
 }
 
 /* MAM 06-Nov-2015... hide the 'Create new account' and 'Request new password'
