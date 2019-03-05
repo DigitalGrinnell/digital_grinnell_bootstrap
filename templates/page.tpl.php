@@ -79,18 +79,19 @@
     <div class="navbar-header">
       <?php if ($logo): ?>
         <div class="hidden-xs">
-          <a class="logo navbar-btn pull-left left-half" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-          </a>
-        </div>
-        <?php if (!empty($site_slogan)): ?>
-          <div class="gc-libraries-link-as-slogan right-half hidden-sm hidden-xs">   <!-- see https://stackoverflow.com/questions/27962534/how-to-hide-something-in-mobile-tablet-view-in-bootstrap-3 -->
-            <a class="pull-right" href="https://www.grinnell.edu/academics/libraries" target="_blank" title="<?php print t('Grinnell College Libraries'); ?>">
-              <img src="<?php print 'https://digital.grinnell.edu/sites/all/themes/digital_grinnell_bootstrap/'.$site_slogan;?>" alt="<?php print t('Grinnell College Libraries'); ?>" />
+          <div class="dg-logo-link left-half hidden-xs">   <!-- see https://stackoverflow.com/questions/27962534/how-to-hide-something-in-mobile-tablet-view-in-bootstrap-3 -->
+            <a class="logo navbar-btn pull-left left-half" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
           </div>
-        <?php endif; ?>
-
+          <?php if (!empty($site_slogan)): ?>
+          <div class="gc-libraries-link-as-slogan right-half hidden-sm hidden-xs">   <!-- see https://stackoverflow.com/questions/27962534/how-to-hide-something-in-mobile-tablet-view-in-bootstrap-3 -->
+            <a class="pull-right" href="https://www.grinnell.edu/academics/libraries" target="_blank" title="<?php print t('Grinnell College Libraries'); ?>">
+              <img src="<?php print '/sites/all/themes/digital_grinnell_bootstrap/'.$site_slogan;?>" alt="<?php print t('Grinnell College Libraries'); ?>" />
+            </a>
+          </div>
+          <?php endif; ?>
+        </div>
       <?php endif; ?>
 
       <?php if (!empty($site_name)): ?>
