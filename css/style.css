@@ -74,6 +74,7 @@ div.highlighted.jumbotron {
 
 .navbar-header {
   width: 100%;
+  min-height: 100px;     /* keeps menu from collapsing into the logo as width shrinks */
 }
 
 div.dg-logo-link.left-half {
