@@ -58,6 +58,18 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
   box-shadow: none !important;
 }
 
+/* Compound Object block... */
+
+#block-islandora-compound-object-compound-jail-display {
+  height: auto;
+  max-height: 440px;
+}
+
+.islandora-parent-object-heading {
+  text-align: center;
+  height: 2em;
+}
+
 /* Announcements... */
 
 .jumbotron p {
