@@ -3529,3 +3529,15 @@ hr {
 h3 a {
 	font-family: "Noto Serif", serif !important;
 }
+
+/* New bulleted list style */
+
+ul.bulleted-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ul.bulleted-list li {
+  margin-left: 2em;
+  list-style-type: inherit;
+}
