@@ -3541,3 +3541,12 @@ ul.bulleted-list li {
   margin-left: 2em;
   list-style-type: inherit;
 }
+
+/* End bulleted list style */
+
+/* JMB 6/19 Making active pagination page Grinnell red */
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--grinnell-red);
+    border-color: var(--grinnell-red);
+}
