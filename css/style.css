@@ -68,6 +68,8 @@ div.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-g
 .islandora-parent-object-heading {
   text-align: center;
   height: 2em;
+  margin-left: 33%;
+  margin-top: 1em;
 }
 
 /* Announcements... */
