@@ -252,6 +252,12 @@ span.oh_speaker_5 {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 
+/* Hide the "Home" banner on the home page! */
+
+h1.page-header {
+  display: none;
+}
+
 /* Authorization form theme settings */
 
 span#authorization-forms-button {
